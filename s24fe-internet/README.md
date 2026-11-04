@@ -272,6 +272,8 @@ Aynı binada bir operatör tam çekerken diğeri hiç çekmeyebilir. Bunu ayar d
 
 Operatörüne **kapsama şikâyeti** aç: uygulamadan veya müşteri hizmetlerinden, adresi ve "bina içinde çekmiyor" bilgisini vererek. Çok sayıda öğrenci aynı yurttan şikâyet ederse operatörler bölgeye kapasite ekleyebiliyor. Yurttaki arkadaşlarınla birlikte yapmak etkiyi artırır. Çözülmezse BTK'ya başvurabilirsin.
 
+Hazır dilekçe ve şikâyet metinleri için bkz. [SIKAYET-SABLONLARI.md](SIKAYET-SABLONLARI.md). Bu dosyada operatör, yurt müdürlüğü, CİMER ve okul için şablonlar var.
+
 ### 5.9 İleri seviye: bant kilitleme (isteğe bağlı, riskli değil ama garantisi yok)
 
 Bazı Samsung telefonlarda telefon uygulamasına `*#2263#` yazınca gizli **bant seçimi** menüsü açılır. Bu yöntemin S24 FE'nin Exynos işlemcisinde ve güncel yazılımda çalıştığı doğrulanmış değil. Menü hiç açılmayabilir.
