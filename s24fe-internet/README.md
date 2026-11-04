@@ -17,7 +17,7 @@ Kişi: KYK/GSB yurdu, Çubuk (Ankara). Telefon: Samsung Galaxy S24 FE.
 
 - [ ] **Yazılımı güncelle:** Ayarlar → Yazılım güncelleme → İndir ve yükle. Modem yazılımı da bu güncellemeyle gelir.
 - [ ] **Google Play sistem güncellemesi:** Ayarlar → Güvenlik ve gizlilik → Güncellemeler → Google Play sistem güncellemesi. Wi-Fi ve bağlantı modülleri de buradan güncellenir.
-- [ ] **Wi-Fi güç tasarrufunu kapat:** Ayarlar → Bağlantılar → Wi-Fi → ⋮ → Akıllı Wi-Fi → **Wi-Fi güç tasarrufu modu: KAPALI**.
+- [ ] **Wi-Fi güç tasarrufunu kapat:** Ayarlar → Bağlantılar → Wi-Fi → ⋮ → Akıllı Wi-Fi → **Wi-Fi güç tasarrufu modu: KAPALI**. Yeni sürümlerde (Intelligent Wi-Fi 9.x) bu seçenek yok. Görmüyorsan bu adımı atla.
 - [ ] **Kılıfı kontrol et:** Mıknatıslı, metal, kartlıklı ya da yüzüklü kılıf kullanıyorsan çıkarıp test et (bkz. [Bölüm 3](#3-konum-ve-kılıf-bedava-ve-en-etkili)).
 - [ ] **GSB ağını "Ölçülü ağ" yap:** Arka planda kotanı yiyen yedekleme ve güncellemeleri durdurur (bkz. [2.3](#23-gsb-ağının-kendi-ayarları)).
 - [ ] **VoLTE ve Wi-Fi aramasını aç:** Mobil sinyal zayıfken aramaların Wi-Fi üzerinden gitmesini sağlar (bkz. [5.3](#53-volte-ve-wi-fi-araması)).
@@ -88,8 +88,9 @@ Ayarlar → Bağlantılar → Wi-Fi → sağ üstte **⋮** → **Akıllı Wi-Fi
 
 | Ayar | Öneri | Neden |
 |---|---|---|
-| Wi-Fi güç tasarrufu modu | **KAPALI** | Açıkken telefon pil için Wi-Fi'ı kısıyor. Zayıf sinyalde kopma ve yavaşlamayı artırır. |
+| Wi-Fi güç tasarrufu modu | **KAPALI** (yeni sürümlerde yok, görmüyorsan atla) | Açıkken telefon pil için Wi-Fi'ı kısıyor. Zayıf sinyalde kopma ve yavaşlamayı artırır. |
 | Mobil veriye geç | **AÇIK**, mobil kotan yeterliyse | Wi-Fi çok kötüleşince internet kesilmez, mobil veriye geçer. Kotan azsa KAPALI bırak. |
+| Daha iyi Wi-Fi ağlarına geç | **AÇIK** | Telefon kayıtlı ağlardan daha iyi olanına kendisi geçer. |
 | Wi-Fi'ı otomatik aç | İsteğe bağlı | Yurda gelince Wi-Fi kendiliğinden açılır. |
 | Ağ kalitesi bilgilerini göster | **AÇIK** | Wi-Fi listesinde hangi ağın iyi olduğunu gösterir. |
 
@@ -100,6 +101,8 @@ Samsung'un gizli Wi-Fi menüsü. S24 FE'de One UI 7 ve sonrasında var.
 1. Ayarlar → Bağlantılar → Wi-Fi → ⋮ → **Akıllı Wi-Fi**
 2. En alta in. **"Akıllı Wi-Fi"** yazısına (sürüm numarasının olduğu satır) **art arda 7 kez** dokun.
 3. Yeni bir **Connectivity Labs** bölümü açılır. Türkçe arayüzde "Bağlantı laboratuvarları" gibi görünebilir.
+
+> Akıllı Wi-Fi ekranının altında **Connectivity labs** satırı zaten görünüyorsa menü açık demektir. Dokunmana gerek yok, doğrudan gir.
 
 İşine yarayacaklar:
 
