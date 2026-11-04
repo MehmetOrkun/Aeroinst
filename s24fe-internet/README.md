@@ -104,13 +104,27 @@ Samsung'un gizli Wi-Fi menüsü. S24 FE'de One UI 7 ve sonrasında var.
 
 > Akıllı Wi-Fi ekranının altında **Connectivity labs** satırı zaten görünüyorsa menü açık demektir. Dokunmana gerek yok, doğrudan gir.
 
-İşine yarayacaklar:
+S24 FE'de (Intelligent Wi-Fi 9.0.0) menü İngilizce çıkıyor. Önerilen ayarlar:
 
-- **Yakındaki Wi-Fi bilgileri:** Çevredeki ağları ve sinyal kalitelerini (En iyi, İyi, Kötü, En kötü) kanalıyla birlikte listeler. Odanın içinde gezinerek **GSB sinyalinin en iyi olduğu noktayı** bul.
-- **Ev Wi-Fi denetimi:** Bulunduğun alanın sinyal haritasını çıkarır, ölü noktaları gösterir.
-- **Mobil veriye daha hızlı geçiş:** Wi-Fi bozulmaya başlar başlamaz mobil veriye geçer. Bağlantı kesintisiz olur ama mobil kotan daha hızlı biter. Sınırsız veya bol paketin varsa aç.
+| Seçenek | Öneri | Neden |
+|---|---|---|
+| Show network quality info | **AÇIK** | Wi-Fi listesinde her ağın kalitesini gösterir. |
+| Intelligent Wi-Fi Handover | **AÇIK** | Daha iyi erişim noktasına veya ağa akıllıca geçer. |
+| Realtime Data Priority Mode | **AÇIK** | Görüntülü arama ve oyun trafiğini arka plan indirmelerinin önüne alır. |
+| Disable Wi-Fi Scan for D2D | **AÇIK** | Cihazdan cihaza aktarım sırasında gereksiz taramayı keser. |
+| Faster switch to mobile data | Mobil paketin bolsa AÇIK, değilse KAPALI | Wi-Fi bozulur bozulmaz mobil veriye geçer, kotayı hızlı harcar. Yurtta mobil sinyal de zayıfsa kapalı kalması daha iyi. |
+| Home Wi-Fi inspection | Yurtta kullan | Odanın sinyal haritasını çıkarır, en iyi noktayı bulmanı sağlar. |
+| Connect to 2.4GHz for IOT setup | Normalde KAPALI, yurtta **deneme** için | Bkz. aşağıdaki 2.4 GHz deneyi. |
+| L4S, AI Network Guard, Enhanced Wi-Fi compatibility, Wi-Fi developer options | Dokunma | GSB'ye bir katkısı yok ya da test amaçlı. |
 
-> Bu menüdeki "geliştirici" seçeneklerinin ne yaptığını bilmiyorsan dokunma. Samsung'un test amaçlı ayarları.
+Bir şeyleri bozduğunu düşünürsen en alttaki **Reset all labs settings** her şeyi varsayılana döndürür.
+
+**Kayıtlı ağları temizle:** Connectivity labs → *Network information* bölümü kayıtlı ağ sayısını gösterir. **Unused** (kullanılmayan) ağları sil, özellikle şifresiz olanları. Böylece telefon yurtta GSB yerine yakındaki başka bir açık ağa atlamaz.
+
+**2.4 GHz deneyi:** Haftalık raporda **Band** bölümüne bak. Telefon neredeyse hep 5 GHz'de kalıyorsa ve odada sinyal kötüyse 2.4 GHz duvarları daha iyi geçebilir.
+1. Yurtta, odanda hız testi yap ve sinyali not al. Bu sonuç 5 GHz içindir.
+2. *Connect to 2.4GHz for IOT setup* seçeneğini aç. Wi-Fi'ı kapatıp açarak yeniden bağlan, aynı testi tekrarla.
+3. Hangisi daha iyiyse onu kullan. Bu seçenek aslında akıllı ev cihazı kurulumu için tasarlanmış ve tüm ağları etkiler. Okulda veya evde iyi bir 5 GHz ağındayken kapatmayı unutma.
 
 ### 2.3 GSB ağının kendi ayarları
 
