@@ -268,6 +268,20 @@ Aynı binada bir operatör tam çekerken diğeri hiç çekmeyebilir. Bunu ayar d
 3. Turkcell, Vodafone ve Türk Telekom'un sitelerindeki **kapsama haritalarına** yurdunun adresini gir. **nPerf** ve **Opensignal** gibi gerçek kullanıcı ölçümlü haritalara da bak.
 4. Başka bir operatör açıkça daha iyiyse **numara taşıma** ile numaranı koruyarak geçebilirsin. Taşıma kampanyaları genelde daha ucuz da olur. Mevcut taahhüdün varsa cayma bedelini kontrol et.
 
+#### Numaranı taşıyamıyorsan: ikinci hattı sadece internet için kullan
+
+S24 FE'de fiziksel SIM yuvasına ek olarak **eSIM** de var, yani iki hat aynı anda takılı kalabilir. Taahhüdün yüzünden numaranı taşıyamıyorsan:
+
+1. Bölgede daha iyi çeken operatörden, mağazaya kimliğinle gidip **ucuz bir faturasız internet hattı** al. Mevcut hattın fiziksel SIM ise yenisini **eSIM** olarak iste.
+2. Ayarlar → Bağlantılar → **SIM yöneticisi** bölümünde:
+   - **Aramalar** ve **Mesajlar** → mevcut hattın. Numaran ve sözleşmen aynen kalır.
+   - **Mobil veri** → yeni hat.
+   - Bu menüde "diğer SIM'e otomatik veri geçişi" gibi bir seçenek varsa **AÇ**. Bir hattın verisi kötüleşince telefon diğerine geçer.
+3. Akıllı Wi-Fi → **Mobil veriye geç: AÇIK**. Artık GSB koptuğunda iyi çeken hatta geçilir.
+4. Mevcut hattında **Wi-Fi araması** açık kalsın. Mobil sinyal zayıfken aramalar Wi-Fi üzerinden gelir.
+
+Ek bir cihaz istersen: Daha iyi çeken operatörün SIM'ini taktığın bir **4.5G cep modemini** pencere kenarına koyabilirsin. Telefonu da Wi-Fi ile ona bağlarsın. Sabit ve pencerede duran bir modem, elindeki telefondan genelde daha iyi çeker. Yurt kurallarında kişisel modem yasak olabilir, önce sor.
+
 ### 5.8 Şikâyet et (işe yarıyor)
 
 Operatörüne **kapsama şikâyeti** aç: uygulamadan veya müşteri hizmetlerinden, adresi ve "bina içinde çekmiyor" bilgisini vererek. Çok sayıda öğrenci aynı yurttan şikâyet ederse operatörler bölgeye kapasite ekleyebiliyor. Yurttaki arkadaşlarınla birlikte yapmak etkiyi artırır. Çözülmezse BTK'ya başvurabilirsin.
